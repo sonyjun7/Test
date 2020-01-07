@@ -1,0 +1,45 @@
+{
+  "name": "form-async",
+  "version": "2.0.1",
+  "description": "The simplest, fastest way to send ajax request when form changes.",
+  "main": "dist/form-async.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "autosave",
+    "input",
+    "form",
+    "interval",
+    "client",
+    "jquery",
+    "browser",
+    "js-autosave"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lognoz/form-async.git"
+  },
+  "author": "Form Async and other contributors",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=3.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-compare-size": "0.4.2",
+    "grunt-contrib-connect": "1.0.2",
+    "grunt-contrib-qunit": "2.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify": "2.3.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-template": "^0.2.3",
+    "gzip-js": "0.3.2",
+    "load-grunt-config": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "qunit": "^2.6.2",
+    "requirejs": "2.3.5",
+    "sinon": "^6.3.4"
+  }
+}

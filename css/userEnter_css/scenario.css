@@ -1,0 +1,810 @@
+
+@media(max-width: 480px){
+
+    /* 공통 */
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #hNotice h2{
+        font-size: 18px;
+    }
+
+    /* 시나리오 생성 페이지 */
+    /* #sce_area{
+        margin: 0 150px 5vh 150px;
+
+    } */
+
+    #sce_area::after{
+        content:"";
+        display: table;
+        clear: both;
+      
+    }
+
+    #title_area{
+        margin-bottom: 2vh;
+        text-align: center;
+    }
+
+    #title_area:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #tit1{
+        text-align: center;
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    #tit1 h4{
+        font-size: 14px;
+    }
+
+    #tit2{
+        text-align: center;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        /* width: 50vw; */
+        width: 70%;
+    }
+
+    #tit3{
+        margin-top: 5px;
+        text-align: center;
+        display: block;
+        
+        /* float: left; */
+    }
+
+    #tit3 button{
+        margin-top: 5px;
+        height: 35px;
+        width: 80%;
+    }
+
+    #tit2 #tit_tarea{
+        resize: none;
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    #sce_one_div1{
+        padding: 8vw;
+        border: 1.5px solid #b3b3b3;
+        border-radius: 20px;
+        /* width: 45%; */
+        /* float: left; */
+        margin: 5%;
+
+    }
+
+    .btn_indx{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .btn_wa{
+        width: 100%;
+    }
+
+    #btn_area{
+        text-align: center;
+        margin-bottom: 5vh
+    }
+
+    /* 코스 글쓰기 페이지 */
+
+    #tit1_cose h4{
+        font-size: 14px;
+    }
+
+    .area_panel{
+        text-align: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .a_p_body p{
+        font-size: 14px;
+    }
+
+    #tit1_cose{
+        text-align: center;
+        float: left;
+        width: 20%;
+        /* margin-right: 5vw; */
+    }
+
+    #cose_tit_tarea{
+        resize: none;
+        height: 40px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #cont_tarea{
+        resize: none;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #upload_div{
+        text-align: center;
+    }
+
+    #p_div{
+        font-size: 14px;
+    }
+
+    #upload_div:after{
+        content: "";
+        display: block;
+        clear: both;     
+    }
+
+    #edit_div{
+        /* margin-top: 20px; */
+    }
+
+    #edit_div button{
+        width: 80%;
+        margin: 5px;
+    }
+
+
+    #cosebtn_area{
+        text-align: center;
+        margin: 1vh 0 5vh 0;
+    }
+
+    /* 시나리오 관람 페이지 */
+
+    /* 메인 게시글 여백 */
+    #board_area{
+        margin : 0 0 18vh 0;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(165, 165, 165);
+    }
+
+    #list_table thead tr th{
+        text-align: center;
+        font-size: 12px;
+        vertical-align: middle !important;
+    }
+
+    #list_table tbody tr td button,
+    #list_table tbody tr td{
+        text-align: center;
+        font-size: 12px;
+        vertical-align: middle !important;
+    }
+
+    #write_btn{ 
+        float: right;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    .pagination li{
+        font-size: 10px;
+    }
+
+    /* 공지사항 게시글 검색 */
+
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        /* margin-left: 13vw; */
+        width: 100%;
+        float: left;
+       
+    }
+
+    #search_box select{
+        width: 28%;
+        float: left;
+        margin-right: 3px;
+        margin-left: 3px;
+        font-size: 12px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    #search_box button{
+        width:28%;
+        float: left;
+        font-size: 12px;
+    }
+
+    /* 코스 읽기 (코스 작성 제외 추가 태그 작성 css)*/
+    .watch_div{
+        text-align: center;
+    }
+
+    #imgimg{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    #v_watch{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    div.polaroid{
+        width: 100%;
+        max-width: 900px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+}
+
+@media(min-width:481px) and (max-width:1049px){
+
+    /* 공통 */
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* 시나리오 생성 페이지 */
+    #sce_area{
+        margin: 0 150px 5vh 150px;
+    
+    }
+
+    #sce_area::after{
+        content:"";
+        display: table;
+        clear: both;
+      
+    }
+
+    .area_panel{
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .a_p_body p{
+        font-size: 16px;
+    }
+
+    #title_area{
+        margin-bottom: 2vh;
+    }
+
+    #title_area:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #tit1{
+        text-align: center;
+        float: left;
+        width: 20%;
+        /* margin-right: 15px; */
+    }
+
+    #tit2{
+        text-align: center;
+        float: left;
+        /* margin-right: 15px; */
+        width: 60%;
+    }
+
+    #tit3{
+        text-align: center;
+        display: block;
+        width: 20%;
+        float: left;
+    }
+
+    #tit3 button{
+        height: 40px;
+        width: 80%;
+    }
+
+    #tit2 #tit_tarea{
+        resize: none;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #sce_one_div1{
+        padding: 40px;
+        border: 1.5px solid #b3b3b3;
+        border-radius: 20px;
+        width: 45%;
+        float: left;
+        margin: 2.5%;
+
+    }
+
+    .btn_indx{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .btn_wa{
+        width: 100%;
+    }
+
+    #btn_area{
+        text-align: center;
+        margin-bottom: 5vh
+    }
+
+    /* 코스 글쓰기 페이지 */
+
+    #tit1_cose{
+        text-align: center;
+        float: left;
+        width: 20%;
+        /* margin-right: 5vw; */
+    }
+
+    #cose_tit_tarea{
+        resize: none;
+        height: 40px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #cont_tarea{
+        resize: none;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    #upload_div{
+        text-align: center;
+    }
+
+    #p_div{
+        font-size: 18px;
+    }
+
+    #upload_div:after{
+        content: "";
+        display: block;
+        clear: both;     
+    }
+
+    #edit_div{
+        margin-top: 20px;
+    }
+
+    #edit_div button{
+        width: 200px;
+    }
+
+    #cosebtn_area{
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    #cosebtn_area button{
+        width:15vw;
+    }
+
+    /* 시나리오 관람 페이지 */
+
+    /* 메인 게시글 여백 */
+    #board_area{
+        margin : 0 15vw 18vh 15vw;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(165, 165, 165);
+    }
+
+    #list_table thead tr th{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #list_table tbody tr td{
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle !important;
+    }
+
+    #write_btn{ 
+        float: right;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    /* 공지사항 게시글 검색 */
+
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        margin-left: 13vw;
+        width: 70%;
+        float: left;
+    }
+
+    #search_box select{
+        width: 20%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box button{
+        width:20%;
+        float: left;
+    }
+
+    /* 코스 읽기 (코스 작성 제외 추가 태그 작성 css)*/
+    .watch_div{
+        text-align: center;
+    }
+
+    /* #imgimg{
+        width: 400px;
+        
+    } */
+
+    #imgimg{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    #v_watch{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    div.polaroid{
+        width: 100%;
+        max-width: 900px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+}
+
+@media(min-width:1050px){
+
+    /* 공통 */
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* 시나리오 생성 페이지 */
+    #sce_area{
+        margin: 0 20vw 5vh 20vw;
+    
+    }
+
+    #sce_area::after{
+        content:"";
+        display: table;
+        clear: both;
+      
+    }
+
+    .area_panel{
+        text-align: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .a_p_body p{
+        font-size: 16px;
+    }
+
+    #title_area{
+        margin-bottom: 2vh;
+    }
+
+    #title_area:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    #tit1{
+        text-align: center;
+        float: left;
+        width: 20%;
+        /* margin-right: 15px; */
+    }
+
+    #tit2{
+        text-align: center;
+        float: left;
+        /* margin-right: 15px; */
+        width: 60%;
+    }
+
+    #tit3{
+        text-align: center;
+        display: block;
+        width: 20%;
+        float: left;
+    }
+
+    #tit3 button{
+        height: 40px;
+        width: 80%;
+    }
+
+    #tit2 #tit_tarea{
+        resize: none;
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #sce_one_div1{
+        padding: 40px;
+        border: 1.5px solid #b3b3b3;
+        border-radius: 20px;
+        width: 45%;
+        float: left;
+        margin: 2.5%;
+
+    }
+
+    .btn_indx{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .btn_wa{
+        width: 100%;
+    }
+
+    #btn_area{
+        text-align: center;
+        margin-bottom: 5vh
+    }
+
+    /* 코스 글쓰기 페이지 */
+
+    #tit1_cose{
+        text-align: center;
+        float: left;
+        width: 20%;
+        /* margin-right: 5vw; */
+    }
+
+    #cose_tit_tarea{
+        resize: none;
+        height: 40px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #cont_tarea{
+        resize: none;
+        height: 200px;
+        font-size: 18px;
+    }
+
+    #upload_div{
+        text-align: center;
+    }
+
+    #p_div{
+        font-size: 18px;
+    }
+
+    #upload_div:after{
+        content: "";
+        display: block;
+        clear: both;     
+    }
+
+    #edit_div{
+        margin-top: 20px;
+    }
+
+    #edit_div button{
+        width: 15vw;
+    }
+
+    #cosebtn_area{
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    #cosebtn_area button{
+        width:15vw;
+    }
+
+    /* 시나리오 관람 페이지 */
+
+    /* 메인 게시글 여백 */
+    #board_area{
+        margin : 0 15vw 18vh 15vw;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(165, 165, 165);
+    }
+
+    #list_table thead tr th{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #list_table tbody tr td{
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle !important;
+    }
+
+    #write_btn{ 
+        float: right;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    /* 공지사항 게시글 검색 */
+
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        margin-left: 13vw;
+        width: 70%;
+        float: left;
+    }
+
+    #search_box select{
+        width: 20%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box button{
+        width:20%;
+        float: left;
+    }
+
+    /* 코스 읽기 (코스 작성 제외 추가 태그 작성 css)*/
+    .watch_div{
+        text-align: center;
+    }
+
+    /* #imgimg{
+        width: 400px;
+        
+    } */
+
+    #imgimg{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    #v_watch{
+        width: 400px; 
+        max-width: 100%;
+    }
+
+    div.polaroid{
+        width: 100%;
+        max-width: 900px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+}
+

@@ -1,0 +1,131 @@
+<?php
+    include "./pages/common/db.php";
+
+    $idx = $_GET['idx'];
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Jua|Nanum+Gothic+Coding" rel="stylesheet">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <style>
+    #banner{
+        /* max-width: 600px; */
+        width: 100%;
+        /* max-height: 600px; */
+        margin-top: 30px;
+        border-top: solid #d6d6d6 1.5px;
+        border-bottom: solid #d6d6d6 1.5px;
+    }
+
+    #banner img{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    #goto_btn{
+        margin-top: 20px;
+        text-align: center;
+    }
+    </style>
+    <title>영상 편집 사용법</title>
+</head>
+<body>
+
+    <h4 style="color:blue">영상 편집 라이브러리 사용법</h4>
+    <p>* 영상 편집을 할 수 있는 동영상은 제한되어 있습니다. 참고해주세요</p>
+    <p>* 모바일에서는 영상 편집을 지원하지 않습니다.</p>
+
+    <div id="goto_btn">
+        <a href="./mid_index.php?idx=<?php echo $idx ?>"><button class="btn btn-primary btn-lg">영상 편집 시작하기</button></a>
+    </div>
+
+<!-- 배너 이미지 슬라이드(bootstrap) -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- 지시자 -->
+        <!-- <ol id="car_indi" class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol> -->
+
+        <!-- 슬라이드할 이미지 -->
+
+        <div id="banner" class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="../../img/video_edit1.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="../../img/video_edit2.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="../../img/video_edit3.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="../../img/video_edit4.jpg">
+                </div>
+
+                <div class="item">
+                    <img src="../../img/video_edit5.jpg">
+                </div>
+        </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="../../bootstrap/js/bootstrap.min.js"></script>
+        <script>
+
+            $(".carousel").carousel({interval: false });
+
+            $("#carousel-example-generic").on('slid', '', checkitem); 
+
+            $('#carousel-example-generic').on('slid.bs.carousel', '', checkitem);
+
+            $(document).ready(function(){
+                checkitem();
+            });
+
+            function checkitem(){
+                var $this = $('#carousel-example-generic');
+                console.log($this);
+
+                if($('.carousel-inner .item:first').hasClass('active')){
+                    $this.children('.left.carousel-control').hide();
+                    $this.children('.right.carousel-control').show();
+                }
+                else if($('.carousel-inner .item:last').hasClass('active')){
+                    $this.children('.left.carousel-control').show();
+                    $this.children('.right.carousel-control').hide();
+                }
+                else{
+                    $this.children('.carousel-control').show();
+                }
+            }
+
+        </script>
+</body>
+</html>

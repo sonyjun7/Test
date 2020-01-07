@@ -1,0 +1,238 @@
+
+@media(max-width: 480px){
+    /* 참여공간 선택 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #hNotice h2{
+        font-size: 20px;
+    }
+
+    #select_user{
+        text-align: center;
+    }
+
+    #select_user h3{
+        font-size: 16px;
+    }
+
+    #select_user button{
+        width: 40vw;
+        height: 10vh;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    /*  */
+
+    #free_field1{
+        /* text-align: center;    */
+        margin: 30px;
+    }
+
+    #free_field1 button{
+        width: 30vw;
+        height: 60px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #free_field2{
+        margin-left: 30px;
+    }
+
+    #free_field2 button{
+        width: 30vw;
+        height: 60px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #sce_field1,
+    #sce_field2,
+    #sce_field3,
+    #sce_field4{
+        margin-left: 61vw;
+  
+    }
+
+    #sce_field1 button,
+    #sce_field2 button,
+    #sce_field3 button,
+    #sce_field4 button{
+        width: 30vw;
+        height: 80px;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    #space{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 1049px){
+    /* 참여공간 선택 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #select_user{
+        text-align: center;
+    }
+
+
+    #select_user button{
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    /*  */
+
+    #free_field1{
+        text-align: center;   
+        margin-right: 200px;
+    }
+
+    #free_field1 button{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #free_field2{
+        text-align: center;
+        margin-right: 200px;
+    }
+
+    #free_field2 button{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #sce_field1{
+        text-align: center;
+        margin-left: 495px;
+    }
+
+    #sce_field1 button{
+        width: 150px;
+        height: 100px;
+        font-size: 20px; 
+        margin-bottom: 5px;   
+    }
+
+    #sce_field2,
+    #sce_field3,
+    #sce_field4{
+        text-align: center;
+        margin-left: 495px;
+    }
+
+    #sce_field2 button,
+    #sce_field3 button,
+    #sce_field4 button{
+        width: 150px;
+        height: 100px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #space{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 1050px){
+    /* 참여공간 선택 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #select_user{
+        text-align: center;
+    }
+
+
+    #select_user button{
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    /*  */
+
+    #free_field1{
+        text-align: center;   
+        margin-right: 200px;
+    }
+
+    #free_field1 button{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #free_field2{
+        text-align: center;
+        margin-right: 200px;
+    }
+
+    #free_field2 button{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    #sce_field1{
+        text-align: center;
+        margin-left: 495px;
+    }
+
+    #sce_field1 button{
+        width: 150px;
+        height: 100px;
+        font-size: 20px; 
+        margin-bottom: 5px;   
+    }
+
+    #sce_field2,
+    #sce_field3,
+    #sce_field4{
+        text-align: center;
+        margin-left: 495px;
+    }
+
+    #sce_field2 button,
+    #sce_field3 button,
+    #sce_field4 button{
+        width: 150px;
+        height: 100px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    #space{
+        margin-bottom: 50px;
+    }
+}
+

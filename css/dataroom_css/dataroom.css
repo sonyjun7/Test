@@ -1,0 +1,611 @@
+@media(max-width:480px){
+    /* 자료실 메인 게시판 */
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #hNotice h2{
+        font-size: 20px;
+    }
+
+    #trashdiv{
+        text-align: right;
+        padding: 10px;
+    }
+
+    #board_area{
+        margin : 0 0 23vh 0;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(141, 211, 252);
+    }
+
+    #app_list thead tr th{
+        text-align: center;
+        font-size: 2.2vw;
+        vertical-align: middle !important;
+    }
+
+    #app_list tbody tr td{
+        text-align: center;
+        font-size: 2.2vw;
+        vertical-align: middle !important;
+    }
+
+
+
+    #app_list tbody tr td button{
+        width: 100%;
+        /* height: 20px; */
+        margin-bottom: 2px;
+        font-size: 2.2vw;
+        padding: 0;
+    }
+
+    #write_btn{
+        text-align: center;
+    }
+
+    #write_btn button{
+        width: 70%;
+        font-size: 12px;
+    }
+
+    /* 자료실 업로드 */
+
+    #upload_area{
+        text-align: center;
+        margin: 0 0 10vh 0;
+    }
+
+    #title_div input{
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #file_div{
+        margin-top: 3px;
+        height: 225px;
+        border: solid 2px rgb(226, 226, 226);
+    }
+
+    #file_div h4{
+        padding: 10px;
+        text-align: left;
+    }
+
+    #appdiv{
+        padding: 15px;
+    }
+
+    .filebox1 input[type="file"],
+    .filebox2 input[type="file"] { 
+        /* float: left; */
+        position: absolute; 
+        width: 1px; 
+        height: 1px; 
+        padding: 0; 
+        margin: -1px; 
+        overflow: hidden; 
+        clip:rect(0,0,0,0); 
+        border: 0; 
+    } 
+    .filebox1 label,
+    .filebox2 label { 
+        /* float: left; */
+        display: inline-block;
+        width: 110px;
+        height: 50px;
+        padding: .5em .75em;
+        margin-left: 5.5px; 
+        color: rgb(241, 241, 241); 
+        font-size: 12px; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #1c59ca; 
+        cursor: pointer; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+    } 
+    /* named upload */ 
+    .filebox1 .upload-name1, 
+    .filebox2 .upload-name2 { 
+        width: 160px;
+        margin: 8px 8px 0 0;
+        display: inline-block; 
+        padding: .5em .75em; /* label의 패딩값과 일치 */ 
+        font-size: inherit; 
+        font-family: inherit; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #f5f5f5; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+        -webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+        -moz-appearance: none; 
+        appearance: none; 
+    }
+
+    #set_button1{
+        margin-left: 12vw;
+        
+    }
+
+    #set_button1 button{
+        float: left;
+        width: 100px;
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    #set_button2 button{
+        float: left;
+        width: 100px;
+        font-size: 12px;
+        margin: 10px;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    /* 자료실 게시글 검색 */
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #hNotice2 h2,
+    #hNotice2 h4{
+        font-size: 16px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        /* margin-left: 13vw; */
+        width: 100%;
+        float: left;
+       
+    }
+
+    #search_box select{
+        width: 28%;
+        float: left;
+        margin-right: 3px;
+        margin-left: 3px;
+        font-size: 12px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    #search_box button{
+        width:28%;
+        float: left;
+        font-size: 12px;
+    }
+}
+@media(min-width:481px) and (max-width:1049px){
+   /* 자료실 메인 게시판 */
+   #hNotice{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    #trashdiv{
+        text-align: right;
+        padding: 10px;
+    }
+
+    #board_area{
+        margin : 0 19vw 18vh 19vw;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(141, 211, 252);
+    }
+
+    #app_list thead tr th{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #app_list tbody tr td{
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle !important;
+    }
+
+    #app_list tbody tr td button{
+        width: 150px;
+        height: 40px;
+        margin-bottom: 2px;
+    }
+
+    #write_btn{
+        float: right;
+    }
+
+    /* 자료실 업로드 */
+
+    #upload_area{
+        text-align: center;
+        margin: 0 22vw 10vh 22vw;
+    }
+
+    #title_div input{
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #file_div{
+        margin-top: 3px;
+        height: 200px;
+        border: solid 2px rgb(226, 226, 226);
+    }
+
+    #file_div h4{
+        padding: 10px;
+        text-align: left;
+    }
+
+    #appdiv{
+        padding: 15px;
+    }
+
+    #appdiv input{
+        width: 70%;
+    }
+
+    .filebox1 input[type="file"],
+    .filebox2 input[type="file"] { 
+        float: left;
+        position: absolute; 
+        width: 1px; 
+        height: 1px; 
+        padding: 0; 
+        margin: -1px; 
+        overflow: hidden; 
+        clip:rect(0,0,0,0); 
+        border: 0; 
+    } 
+    .filebox1 label,
+    .filebox2 label { 
+        float: left;
+        display: inline-block;
+        width: 110px;
+        height: 50px;
+        padding: .5em .75em;
+        margin-left: 5.5px; 
+        color: rgb(241, 241, 241); 
+        font-size: 14px; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #1c59ca; 
+        cursor: pointer; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+    } 
+    /* named upload */ 
+    .filebox1 .upload-name1, 
+    .filebox2 .upload-name2 { 
+        float: left;
+        width: 160px;
+        margin: 8px 8px 0 0;
+        display: inline-block; 
+        padding: .5em .75em; /* label의 패딩값과 일치 */ 
+        font-size: inherit; 
+        font-family: inherit; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #f5f5f5; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+        -webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+        -moz-appearance: none; 
+        appearance: none; 
+    }
+
+    #set_button1{
+        margin-left: 21vw;
+        
+    }
+
+    #set_button1 button{
+        float: left;
+        width: 100px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    #set_button2 button{
+        float: left;
+        width: 100px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    /* 자료실 게시글 검색 */
+
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        margin-left: 13vw;
+        width: 70%;
+        float: left;
+    }
+
+    #search_box select{
+        width: 20%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box button{
+        width:20%;
+        float: left;
+    }
+}
+
+@media(min-width:1050px){
+   /* 자료실 메인 게시판 */
+   #hNotice{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    #trashdiv{
+        text-align: right;
+        padding: 10px;
+    }
+
+    #board_area{
+        margin : 0 19vw 18vh 19vw;
+    }
+
+    #notice_back{
+        height: 0.4vh;
+        width: 100%;
+        background-color: rgb(141, 211, 252);
+    }
+
+    #app_list thead tr th{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #app_list tbody tr td{
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle !important;
+    }
+
+    #app_list tbody tr td button{
+        width: 12vw;
+        height: 40px;
+        margin-bottom: 2px;
+    }
+
+    #write_btn{
+        float: right;
+    }
+
+    /* 자료실 업로드 */
+
+    #upload_area{
+        /* text-align: center; */
+        margin: 0 22vw 10vh 22vw;
+    }
+
+    #title_div input{
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #file_div{
+        margin-top: 3px;
+        height: 200px;
+        border: solid 2px rgb(226, 226, 226);
+        text-align: center;
+    }
+
+    #file_div h4{
+        padding: 10px;
+        text-align: left;
+    }
+
+    #appdiv{
+        padding: 15px;
+    }
+
+    #appdiv input{
+        width: 70%;
+    }
+
+    .filebox1 input[type="file"],
+    .filebox2 input[type="file"] { 
+        float: left;
+        position: absolute; 
+        width: 1px; 
+        height: 1px; 
+        padding: 0; 
+        margin: -1px; 
+        overflow: hidden; 
+        clip:rect(0,0,0,0); 
+        border: 0; 
+    } 
+    .filebox1 label,
+    .filebox2 label { 
+        float: left;
+        display: inline-block;
+        width: 110px;
+        height: 50px;
+        padding: .5em .75em;
+        margin-left: 5.5px; 
+        color: rgb(241, 241, 241); 
+        font-size: 14px; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #1c59ca; 
+        cursor: pointer; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+    } 
+    /* named upload */ 
+    .filebox1 .upload-name1, 
+    .filebox2 .upload-name2 { 
+        float: left;
+        width: 160px;
+        margin: 8px 8px 0 0;
+        display: inline-block; 
+        padding: .5em .75em; /* label의 패딩값과 일치 */ 
+        font-size: inherit; 
+        font-family: inherit; 
+        line-height: normal; 
+        vertical-align: middle; 
+        background-color: #f5f5f5; 
+        border: 1px solid #ebebeb; 
+        border-bottom-color: #e2e2e2; 
+        border-radius: .25em; 
+        -webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+        -moz-appearance: none; 
+        appearance: none; 
+    }
+
+    #set_button1{
+        margin-left: 21vw;
+        
+    }
+
+    #set_button1 button{
+        float: left;
+        width: 100px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    #set_button2 button{
+        float: left;
+        width: 100px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    /* 블록 페이징 */
+
+    #page_num{
+        /* margin-left: 35%; */
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #page_num ul li{
+        list-style: none;
+        float: left;
+        /* padding: 8px; */
+    }
+
+    #now_page{
+        color: white;
+        background-color: rgb(49, 120, 212);
+        border: solid 1px rgb(146, 146, 146);
+    }
+
+    /* 자료실 게시글 검색 */
+
+    #hNotice2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        margin-left: 13vw;
+        width: 70%;
+        float: left;
+    }
+
+    #search_box select{
+        width: 20%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box input{
+        width: 40%;
+        float: left;
+        margin-right: 3px;
+    }
+
+    #search_box button{
+        width:20%;
+        float: left;
+    }
+}
+
+
+

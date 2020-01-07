@@ -1,0 +1,342 @@
+@media(max-width: 480px){
+    /* 초등,중등 관광지 선택 */
+    #gubun_elmid{
+        text-align: center;
+    }
+    
+    #esel_btn{
+        text-align: center;
+    }
+
+    #esel_btn button{
+        /* width: 100px; */
+        height: 50px;
+        margin: 10px 10px 10vh 10px;
+        font-size: 20px;
+
+    }
+
+    #search_area th{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #searchbtn{
+        width:100%;
+        margin: 2% 0 2% 0;
+    }
+
+    /* search_detail(자세히 검색했을 때) */
+    #hNotice div button{
+        clear: both;
+        text-align: center;
+        width: 90%;
+        margin-top:5%;
+    }
+
+    #arrows{
+        margin: 2% 0 2% 0;
+        display: none;
+    }
+
+    .sce_btn{
+        clear: both;
+        text-align: center;
+        width: 90%;
+        margin-top:5%;
+    }
+
+    #param_form{
+        text-align: center;
+        margin: 0 5% 0 5%;
+    }
+    #param_form select{
+        margin-bottom: 2%;
+        width: 100%;
+        font-size: 12px;
+    }
+    #param_select{
+        margin: 0 5% 0 5%;
+        width: 90%;
+        font-size: 12px;
+    }
+    #search_area{
+        text-align: center;
+    }
+
+    .sp_color{
+        color: rgb(24, 89, 185);
+        float: left;
+    }
+    .sp1{
+        display: block;
+    }
+    #p_goal{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .p_table_body{  /* panel 내부 부분 강제 수정*/
+        height: 500px !important;
+        overflow-y: scroll !important;
+    }
+
+    .p_table_body table thead tr th{
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .p_table_body table tbody tr td{
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .sce_btn_cls{
+        display: none;
+        /* clear: both; */
+        text-align: center;
+        width: 90%;
+        height: 80px;
+        margin-bottom: 3%;
+    }
+
+}
+
+@media(min-width: 481px) and (max-width: 1049px){
+    /* 초등,중등 관광지 선택 */
+    #gubun_elmid{
+        text-align: center;
+    }
+
+    #esel_btn{
+        text-align: center;
+    }
+
+    #esel_btn button{
+        /* width: 100px; */
+        height: 50px;
+        margin: 10px 10px 10vh 10px;
+        font-size: 20px;
+
+    }
+
+    /* phpsearch.php 관광지 검색 메인 */
+    .p_head,
+    .p_body{
+        margin: 0 20% 2% 20%;
+    }
+
+    #search_area th{
+        text-align: center;
+    }
+
+    #searchstr{
+        width:70%;
+        margin-right:2%;
+        margin-bottom: 2%;
+        float: left;
+    }
+
+    #searchbtn{
+        width:28%;
+        margin-bottom: 2%;
+    }
+
+    /* search_detail(자세히 검색했을 때) */
+    .p_body1,
+    .p_body2,
+    .p_body3{
+        margin: 0 20% 2% 20%;
+    }
+    #hNotice div a button,
+    #display_btn{
+        clear: both;
+        text-align: center;
+        width: 50%;
+        margin-top:3%;
+    }
+
+    #arrows{
+        margin: 2% 0 2% 0;
+        display: none;
+    }
+
+    .sce_btn{
+        clear: both;
+        text-align: center;
+        width: 50%;
+        margin-top:3%;
+    }
+
+    #param_form{
+        text-align: center;
+        margin: 0 10% 0 10%;
+    }
+    #param_form select{
+        float: left;
+        margin-right: 1%;
+        width: 32%;
+    }
+    #search_area{
+        text-align: center;
+    }
+    .sp_color{
+        color: rgb(24, 89, 185);
+        float: left;
+    }
+    .sp1{
+        display: block;
+        margin: 0;
+    }
+    span{
+        font-size: 16px;
+    }
+    #p_goal{
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+    .p_table_body{  /* panel 내부 부분 강제 수정*/
+        height: 500px !important;
+        overflow-y: scroll !important;
+    }
+
+    .p_table_body table thead tr th{
+        text-align: center;
+    }
+    
+    .p_table_body table tbody tr td{
+        text-align: center;
+    }
+
+    .sce_btn_cls{
+        display: none;
+        /* clear: both; */
+        text-align: center;
+        /* width: 30%; */
+        height: 80px;
+        margin-top:5%;
+    }
+
+}
+
+@media(min-width: 1050px){
+
+    /* 초등,중등 관광지 선택 */
+    #gubun_elmid{
+        text-align: center;
+    }
+
+    #esel_btn{
+        text-align: center;
+    }
+
+    #esel_btn button{
+        /* width: 100px; */
+        height: 50px;
+        margin: 10px 10px 10vh 10px;
+        font-size: 20px;
+
+    }
+
+    /* #search_div{
+        display: none;
+    } */
+
+    /* phpsearch.php 관광지 검색 메인 */
+    .p_head,
+    .p_body{
+        margin: 0 20% 2% 20%;
+    }
+
+    #search_area th{
+        text-align: center;
+    }
+
+    #searchstr{
+        width:70%;
+        margin-right:2%;
+        margin-bottom: 2%;
+        float: left;
+    }
+
+    #searchbtn{
+        width:28%;
+        margin-bottom: 2%;
+    }
+
+    /* search_detail(자세히 검색했을 때) */
+    .p_body1,
+    .p_body2,
+    .p_body3{
+        margin: 0 20% 2% 20%;
+    }
+    #hNotice div a button,
+    #display_btn{
+        clear: both;
+        text-align: center;
+        width: 30%;
+        margin-top:2%;
+    }
+
+    #arrows{
+        margin: 2% 0 2% 0;
+        display: none;
+    }
+
+    .sce_btn{
+        clear: both;
+        text-align: center;
+        width: 30%;
+        margin-top:2%;
+    }
+
+    #param_form{
+        text-align: center;
+        margin: 0 10% 0 10%;
+    }
+    #param_form select{
+        float: left;
+        margin-right: 1%;
+        width: 32%;
+    }
+    #search_area{
+        text-align: center;
+    }
+
+    .sp_color{
+        color: rgb(24, 89, 185);
+        float: left;
+    }
+    .sp1{
+        display: block;
+        margin: 0;
+    }
+    span{
+        font-size: 18px;
+    }
+    #p_goal{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    
+    .p_table_body{  /* panel 내부 부분 강제 수정*/
+        height: 500px !important;
+        overflow-y: scroll !important;
+    }
+
+    .p_table_body table thead tr th{
+        text-align: center;
+    }
+    
+    .p_table_body table tbody tr td{
+        text-align: center;
+    }
+
+    .sce_btn_cls{
+        display: none;
+        /* clear: both; */
+        text-align: center;
+        /* width: 30%; */
+        height: 80px;
+    }
+}

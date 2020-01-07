@@ -1,0 +1,657 @@
+/* font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Do Hyeon', sans-serif; */
+
+/* 모바일 해상도, 480px이하 일 때 */
+@media(max-width: 480px){
+    body{
+        /* font-family: 'Jua', fantasy; */
+        font-family: 'Noto Sans KR', sans-serif;
+                /* margin: 0; */
+        /* width: 480px; */
+        /* height: 980px; */
+        width: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-top:165px;
+    }
+
+    a{  /* 링크 부분에 밑줄 부분 제거*/
+        text-decoration: none !important;
+    }
+
+    /* common header*/
+        
+    .header_menu{
+        padding: 20px 0 0 0;
+        text-align: center;
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index:2;
+        background-color: white;
+        border-bottom: solid 2px rgb(151, 151, 151);
+    }
+
+    .header_menu :after{
+        display: block;
+        clear: both;
+    }
+
+    .header_icon{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    /* 메뉴 토글 버튼 */
+
+    label{
+        display: block;
+        background-color: #eeeeee;
+    }
+
+    #nav{
+        margin:0; 
+        padding:0; 
+        list-style:none;
+        display:inline;
+        text-align: center;
+        clear: both;
+    } 
+
+    #nav ul{
+        display: block;
+    }
+
+    #nav li {
+        display:inline;
+    }
+
+    /* #site_map_div{
+        display:inline;
+    } */
+    #nav, #toggle{
+        display:none;
+    } 
+    #toggle:checked + #nav{ /* 체크시 메뉴가 보이게*/
+        display: inline;
+    }
+
+
+    #nav li a{
+        display: block;
+        padding: 10px 20px;
+        color: #000000;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #nav li :hover{
+        background-color: #eeeeee;
+    }
+
+    .clsbtn{
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    /* #menu button{
+        display: block;
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    } */
+
+    #commonBanner img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        margin-top: 20px;
+    }
+
+    /* common footer */
+
+    #footer_link{
+        background-color: #f5f7ff; 
+        vertical-align: bottom;
+        position: relative;
+        height: 170px;
+        text-align: center;
+    }
+
+    #ihwa{
+        text-align: center;
+        margin: 5% 20% 5% 20%;
+    }
+
+    #korResearch{
+        text-align: center;
+        margin: 5% 20% 5% 20%;
+    }
+
+    #footer_copyright{
+        background-color:black;
+        vertical-align: bottom;
+        position: relative;
+        opacity: 0.8;
+        height: 250px;
+    }
+
+    #footer_copyright p{
+        text-align: center;
+        padding: 50px 0 0 0;
+    }
+
+    #footer_copyright img{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        margin-top: 135px;
+    }
+
+    /* 사이트 맵 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #site_area{
+        border-top: solid 1.5px rgb(161, 161, 161);
+        /* margin : 0 19vw 5vh 19vw; */
+    }
+
+    #site_area:after{
+        content:"";
+        clear: both;
+        display: block;
+    }
+
+    #sit_div1{
+        vertical-align: middle;
+        text-align: center;
+        float: left;
+        width: 50%;
+    }
+
+    #sit_div2{
+        text-align: center;
+        float: left;
+        width: 50%;
+    }
+
+    #site_area h5 a{
+        color: rgb(97, 97, 97);
+    }
+
+    #site_area h5 a:hover{
+        color: black;
+    }    
+
+    /* 개인정보 방침 */
+    #personal_div{
+        margin : 0 1vw 5vh 1vw;
+    }
+
+    #personal_div p,
+    #personal_div h4{
+        text-align: center;
+    }
+}
+
+/* 1050px이하 일때 너비를 1040px로 고정*/
+@media (min-width: 481px) and (max-width: 1049px){
+
+    body{
+        /* font-family: 'Jua', fantasy; */
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: 0;
+        width: 1040px;
+        height: 980px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    a{  /* 링크 부분에 밑줄 부분 제거*/
+        text-decoration: none !important;
+    }
+
+    /* common header*/
+        
+    .header_menu{
+        padding: 40px  40px;
+
+    }
+
+    .header_menu :after{
+        display: block;
+        clear: both;
+    }
+
+    .header_icon{
+        float: left;
+        margin-left: 20px;
+        width:auto;
+    }
+
+    #site_map_div{
+        position: relative;
+    }
+
+    #site_map_div button{
+        position: absolute;
+        right: 0;
+        top: -35px;
+    }
+
+    #ppolicy_css{
+        position: absolute;
+        right: 80px;
+        top: 0px;
+    }
+
+    /* 메뉴 토글 버튼 */
+    /* 480px 이상 부터는 토글 버튼이 사라지게 */
+    label,
+    #toggle{
+        display: none;
+    }
+
+    #nav{
+        float: right;
+        width: auto;
+        list-style: none;
+    }
+
+    #nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #nav ul :after{
+        display: block;
+        clear: both;
+    }
+
+    #nav li{
+        float: left;
+        width: auto;
+    }
+
+    #nav li a{
+        display: block;
+        padding: 10px 20px;
+        color: #000000;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #nav li :hover{
+        background-color: #eeeeee;
+    }
+
+    #nav button{
+        display: block;
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    #commonBanner img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        margin-top: 20px;
+    }
+
+    /* common footer */
+
+    #footer_link{
+        background-color: #f5f7ff; 
+        vertical-align: bottom;
+        position: relative;
+        height: 120px;
+    }
+
+    #ihwa{
+        position: absolute;
+        margin: auto auto auto 30%;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+    }
+
+    #korResearch{
+        position: absolute;
+        margin: auto 30% auto auto;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+    }
+
+    #footer_copyright{
+        background-color:black;
+        vertical-align: bottom;
+        position: relative;
+        opacity: 0.8;
+        height: 250px;
+    }
+
+    #footer_copyright p{
+        text-align: center;
+        padding-top: 110px;
+    }
+
+    #footer_copyright img{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        margin-top: 155px;
+    }
+
+    /* 사이트 맵 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #site_area{
+        border-top: solid 1.5px rgb(161, 161, 161);
+        margin : 0 150px 5vh 150px;
+    }
+
+    #site_area:after{
+        content:"";
+        clear: both;
+        display: block;
+    }
+
+    #sit_div1{
+        vertical-align: middle;
+        text-align: center;
+        float: left;
+        width: 30%;
+    }
+
+    #sit_div2{
+        /* text-align: center; */
+        float: left;
+        width: 70%;
+    }
+
+    #div2_1_1,
+    #div2_1_2,
+    #div2_1_3{
+        width: 25%;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #div2_2_1,
+    #div2_2_2,
+    #div2_2_3{
+        width: 25%;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }    
+
+    #site_area h5 a{
+        color: rgb(97, 97, 97);
+    }
+
+    #site_area h5 a:hover{
+        color: black;
+    }
+
+    /* 개인정보 방침 */
+    #personal_div{
+        margin : 0 15vw 5vh 15vw;
+    }
+
+    #personal_div p,
+    #personal_div h4{
+        text-align: center;
+    }
+}
+
+/* 1050px 이상일 때 */
+
+@media(min-width:1050px){
+
+    body{
+        /* font-family: 'Jua', fantasy; */
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:120px;
+    }
+
+    a{  /* 링크 부분에 밑줄 부분 제거*/
+        text-decoration: none !important;
+    }
+
+    /* common header*/
+        
+    .header_menu{
+        padding: 30px  40px;
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index:2;
+        background-color: white;
+        border-bottom: solid 2px rgb(151, 151, 151);
+    }
+
+    .header_menu :after{
+        display: block;
+        clear: both;
+    }
+
+    .header_icon{
+        float: left;
+        margin-left: 20px;
+        width:auto;
+    }
+
+    #site_map_div{
+        position: absolute;
+        right: 4vh;
+        top: 0vw;
+    }
+
+    /* 메뉴 토글 버튼 */
+    /* 480px 이상 부터는 토글 버튼이 사라지게 */
+    label,
+    #toggle{
+        display: none;
+    }
+
+    #nav{
+        float: right;
+        width: auto;
+        list-style: none;
+    }
+
+    #nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #nav ul :after{
+        display: block;
+        clear: both;
+    }
+
+    #nav li{
+        float: left;
+        width: auto;
+    }
+
+    #nav li a{
+        display: block;
+        padding: 10px 20px;
+        color: #000000;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #nav li :hover{
+        background-color: #eeeeee;
+    }
+
+    #nav button{
+        display: block;
+        padding: 10px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    #commonBanner img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+        margin-top: 20px;
+    }
+
+    /* common footer */
+
+    #footer_link{
+        background-color: #f5f7ff; 
+        vertical-align: bottom;
+        position: relative;
+        height: 120px;
+    }
+
+    #ihwa{
+        position: absolute;
+        margin: auto auto auto 30%;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+    }
+
+    #korResearch{
+        position: absolute;
+        margin: auto 30% auto auto;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+    }
+
+    #footer_copyright{
+        background-color:black;
+        vertical-align: bottom;
+        position: relative;
+        opacity: 0.8;
+        height: 250px;
+    }
+
+    #footer_copyright p{
+        text-align: center;
+        padding-top: 110px;
+    }
+
+    #footer_copyright img{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        margin-top: 155px;
+    }
+
+    /* 사이트 맵 */
+
+    #hNotice{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #site_area{
+        border-top: solid 1.5px rgb(161, 161, 161);
+        margin : 0 19vw 5vh 19vw;
+    }
+
+    #site_area:after{
+        content:"";
+        clear: both;
+        display: block;
+    }
+
+    #sit_div1{
+        vertical-align: middle;
+        text-align: center;
+        float: left;
+        width: 30%;
+    }
+
+    #sit_div2{
+        /* text-align: center; */
+        float: left;
+        width: 70%;
+    }
+
+    #div2_1_1,
+    #div2_1_2,
+    #div2_1_3{
+        width: 25%;
+        float: left;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+
+    #div2_2_1,
+    #div2_2_2,
+    #div2_2_3{
+        width: 25%;
+        float: left;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+
+    #site_area h5 a{
+        color: rgb(97, 97, 97);
+    }
+
+    #site_area h5 a:hover{
+        color: black;
+    }
+
+    /* 개인정보 방침 */
+    #personal_div{
+        margin : 0 15vw 5vh 15vw;
+    }
+
+    #personal_div p,
+    #personal_div h4{
+        text-align: center;
+    }
+}
+
